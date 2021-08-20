@@ -3,6 +3,7 @@
     <HeaderShayna />
     <HeroShayna />
     <WomanShayna />
+    <RelatedShayna />
     <InstaShayna />
     <PartnerShayna />
     <FooterShayna />
@@ -15,6 +16,7 @@
 import HeaderShayna from "@/components/HeaderShayna.vue";
 import HeroShayna from "@/components/HeroShayna.vue";
 import WomanShayna from "@/components/WomanShayna.vue";
+import RelatedShayna from "@/components/RelatedShayna.vue";
 import InstaShayna from "@/components/InstaShayna.vue";
 import PartnerShayna from "@/components/PartnerShayna.vue";
 import FooterShayna from "@/components/FooterShayna.vue";
@@ -25,6 +27,7 @@ export default {
     HeaderShayna,
     HeroShayna,
     WomanShayna,
+    RelatedShayna,
     InstaShayna,
     PartnerShayna,
     FooterShayna

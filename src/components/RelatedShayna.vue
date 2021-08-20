@@ -1,5 +1,8 @@
 <template>
   <!-- Related Products Section End -->
+  <section class="related-product"> 
+    <carousel class="products-item" :items="1" :nav="false" :autoplay="true">
+
   <div class="related-products spad">
     <div class="container">
       <div class="row">
@@ -13,7 +16,7 @@
         <div class="col-lg-3 col-sm-6">
           <div class="product-item">
             <div class="pi-pic">
-              <img src="img/products/women-1.jpg" alt />
+              <img src="img/R2.png" alt />
               <ul>
                 <li class="w-icon active">
                   <a href="#">
@@ -26,9 +29,9 @@
               </ul>
             </div>
             <div class="pi-text">
-              <div class="catagory-name">Coat</div>
+              <div class="catagory-name">Toys</div>
               <a href="#">
-                <h5>Pure Pineapple</h5>
+                <h5>Luffy</h5>
               </a>
               <div class="product-price">
                 $14.00
@@ -40,7 +43,7 @@
         <div class="col-lg-3 col-sm-6">
           <div class="product-item">
             <div class="pi-pic">
-              <img src="img/products/women-2.jpg" alt />
+              <img src="img/R3.png" alt />
               <ul>
                 <li class="w-icon active">
                   <a href="#">
@@ -53,9 +56,9 @@
               </ul>
             </div>
             <div class="pi-text">
-              <div class="catagory-name">Shoes</div>
+              <div class="catagory-name">Toys</div>
               <a href="#">
-                <h5>Guangzhou sweater</h5>
+                <h5>Ace</h5>
               </a>
               <div class="product-price">$13.00</div>
             </div>
@@ -64,7 +67,7 @@
         <div class="col-lg-3 col-sm-6">
           <div class="product-item">
             <div class="pi-pic">
-              <img src="img/products/women-3.jpg" alt />
+              <img src="img/R4.png" alt />
               <ul>
                 <li class="w-icon active">
                   <a href="#">
@@ -77,9 +80,9 @@
               </ul>
             </div>
             <div class="pi-text">
-              <div class="catagory-name">Towel</div>
+              <div class="catagory-name">Toys</div>
               <a href="#">
-                <h5>Pure Pineapple</h5>
+                <h5>Sanji</h5>
               </a>
               <div class="product-price">$34.00</div>
             </div>
@@ -88,7 +91,7 @@
         <div class="col-lg-3 col-sm-6">
           <div class="product-item">
             <div class="pi-pic">
-              <img src="img/products/women-4.jpg" alt />
+              <img src="img/R1.png" alt />
               <ul>
                 <li class="w-icon active">
                   <a href="#">
@@ -101,9 +104,9 @@
               </ul>
             </div>
             <div class="pi-text">
-              <div class="catagory-name">Towel</div>
+              <div class="catagory-name">Toys</div>
               <a href="#">
-                <h5>Converse Shoes</h5>
+                <h5>Zoro</h5>
               </a>
               <div class="product-price">$34.00</div>
             </div>
@@ -112,11 +115,17 @@
       </div>
     </div>
   </div>
+
+    </carousel>
+  </section>
   <!-- Related Products Section End -->
 </template>
 
 <script>
+import carousel from "vue-owl-carousel";
+
 export default {
-    name: "RelatedShayna"
+    name: "RelatedShayna",
+    component: {carousel}
 }
 </script>
