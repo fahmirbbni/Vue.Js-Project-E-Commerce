@@ -1,2 +1,5 @@
 # Vue.Js-Project-E-Commerce
-Duplicated E-Commerce with another style.
+Buildd E-Commerce with Vue.js.
+
+Happy Coding !!
+try it with your own style
